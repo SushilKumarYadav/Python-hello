@@ -20,3 +20,6 @@ def linear_search(data, key):
         if item == key:
             return idx
     return -1
+
+def rev(str1):
+    return str[::-1]
