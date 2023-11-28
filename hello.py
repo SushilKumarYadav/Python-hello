@@ -14,3 +14,9 @@ def sorting(data):
             if data[j] > data[j+1]:
                 data[j], data[j+1] = data[j+1], data[j]
     return data
+
+def linear_search(data, key):
+    for idx, item in enumerate(data):
+        if item == key:
+            return idx
+    return -1
